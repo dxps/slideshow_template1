@@ -1,0 +1,201 @@
+/* ------- the standard fonts ------- */
+
+.reveal {
+  /* font-family: 'linotteregular', sans-serif; */
+  font-family: 'Nunito', sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #657b83;
+}
+
+html,
+body,
+.reveal div,
+.reveal span,
+.reveal applet,
+.reveal object,
+.reveal iframe,
+.reveal p,
+.reveal blockquote,
+.reveal pre,
+.reveal a,
+.reveal abbr,
+.reveal acronym,
+.reveal address,
+.reveal big,
+.reveal cite,
+.reveal code,
+.reveal del,
+.reveal dfn,
+.reveal em,
+.reveal img,
+.reveal ins,
+.reveal kbd,
+.reveal q,
+.reveal s,
+.reveal samp,
+.reveal small,
+.reveal strike,
+.reveal strong,
+.reveal sub,
+.reveal sup,
+.reveal tt,
+.reveal var,
+.reveal b,
+.reveal u,
+.reveal center,
+.reveal dl,
+.reveal dt,
+.reveal dd,
+.reveal ol,
+.reveal ul,
+.reveal li,
+.reveal fieldset,
+.reveal form,
+.reveal label,
+.reveal legend,
+.reveal table,
+.reveal caption,
+.reveal tbody,
+.reveal tfoot,
+.reveal thead,
+.reveal tr,
+.reveal th,
+.reveal td,
+.reveal article,
+.reveal aside,
+.reveal canvas,
+.reveal details,
+.reveal embed,
+.reveal figure,
+.reveal figcaption,
+.reveal footer,
+.reveal header,
+.reveal hgroup,
+.reveal menu,
+.reveal nav,
+.reveal output,
+.reveal ruby,
+.reveal section,
+.reveal summary,
+.reveal time,
+.reveal mark,
+.reveal audio,
+.reveal video {
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/* ------- headings ------- */
+
+.reveal h1 {
+  font-size: 3em;
+}
+
+.reveal h4 {
+  font-size: 1.22em;
+}
+
+/* ------- code fonts & view ------- */
+
+@font-face {
+  font-family: 'Iosevka';
+  font-weight: 300;
+  src: url('../fonts/iosevka/iosevka-light.woff2') format('woff2'), url('../fonts/iosevka/iosevka-light.woff') format('woff'),
+    url('../fonts/iosevka/iosevka-light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Iosevka';
+  font-weight: 300;
+  font-style: italic;
+  src: url('../fonts/iosevka/iosevka-lightitalic.woff2') format('woff2'),
+    url('../fonts/iosevka/iosevka-lightitalic.woff') format('woff'),
+    url('../fonts/iosevka/iosevka-lightitalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Iosevka';
+  src: url('../fonts/iosevka/iosevka-regular.woff2') format('woff2'), url('../fonts/iosevka/iosevka-regular.woff') format('woff'),
+    url('../fonts/iosevka/iosevka-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Iosevka';
+  font-style: italic;
+  src: url('../fonts/iosevka/iosevka-italic.woff2') format('woff2'), url('../fonts/iosevka/iosevka-italic.woff') format('woff'),
+    url('../fonts/iosevka/iosevka-italic.ttf') format('truetype');
+}
+
+/* ------- my highlight ------- */
+
+.reveal .vsv-code-hl {
+  /* color: rgba(221, 109, 50, 0.7); */
+  color: rgba(235, 176, 14, 0.7);
+}
+
+.reveal pre code {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 140%;
+  line-height: 120%;
+}
+
+/* ------- highlight selected text ------- */
+
+::selection {
+  color: #fff;
+  background: #da635d;
+  text-shadow: none;
+}
+
+/* ------- 120% smaller text ------- */
+
+.reveal .vsv-text-120pct {
+  font-size: 120%;
+}
+
+/* ------- 80% smaller text ------- */
+
+.reveal .vsv-text-80pct {
+  font-size: 80%;
+}
+
+/* ------- 60% smaller text ------- */
+
+.reveal .vsv-text-60pct {
+  font-size: 60%;
+}
+
+/* -------  ------- */
+
+.reveal .vsv-text-condensed {
+  font-family: 'League Gothic', Impact, sans-serif;
+}
+
+/* changing solarized's "top" valign to normal */
+
+.reveal small {
+  vertical-align: baseline;
+}
+
+/* ------- speaker notes (at least for ?print-pdf having showNotes: true ------- */
+
+.reveal .speaker-notes-pdf,
+.reveal .speaker-notes {
+  /* font-family: 'linotteregular', sans-serif; */
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  background: none;
+  color: #657b83;
+  text-align: center;
+  border-top-style: inset;
+  border-top-width: 1px;
+}
+
+.reveal .speaker-notes {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .reveal .speaker-notes {
+    font-size: 16px;
+  }
+}
