@@ -20,3 +20,5 @@ These are basically `reveal-md` prerequisites. You need to have installed:
 Use `./show.sh` for having the result open in a browser and automatically reloaded on content changes.
 
 Start writing on `slides.md` file and enjoy the experience!
+
+`print.sh` could be used for generating the PDF version of the slides. Look into it for updating some variables before usage. This usage will be improved. Currently, `print` directory includes the generated output as an example.
