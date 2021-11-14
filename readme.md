@@ -12,6 +12,7 @@ These are basically `reveal-md` prerequisites. You need to have installed:
 
 - [Node.js](https://nodejs.org/en/)
 - [reveal-md](https://github.com/webpro/reveal-md) (using `npm install -g reveal-md`)
+- [Docker](https://docs.docker.com/get-docker/) if you want to generate the PDF format
 
 <br/>
 
@@ -21,4 +22,4 @@ Use `./show.sh` for having the result open in a browser and automatically reload
 
 Start writing on `slides.md` file and enjoy the experience!
 
-`print.sh` could be used for generating the PDF version of the slides. Look into it for updating some variables before usage. This usage will be improved. Currently, `print` directory includes the generated output as an example.
+Use `print.sh` for generating the PDF format of the slides.
